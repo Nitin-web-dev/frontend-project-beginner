@@ -78,3 +78,20 @@ main> div > section  {
 #projectSection > ul > li:last-child {
     border: transparent;
 }
+
+#workExperienceSection > div ,#educationSection {
+    line-height: 2;
+    border-bottom: 1px solid black;
+    
+}
+
+#workExperienceSection > div:last-child {
+    border: transparent;
+} 
+#workExperienceSection > div > p > button {
+    color:rgb(48, 157, 247);
+    border: transparent;
+    background : transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
