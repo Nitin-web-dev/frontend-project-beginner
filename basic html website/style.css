@@ -95,3 +95,21 @@ main> div > section  {
     cursor: pointer;
     font-weight: bold;
 }
+
+#educationSection > h2 {
+    margin: 20px auto;
+    text-transform: capitalize;
+}
+
+#educationSection > ul {
+    list-style-type: none;
+
+}
+#educationSection > ul > li {
+    line-height: 2;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+}
+#educationSection > ul > li:last-child {
+    border: transparent;
+}
