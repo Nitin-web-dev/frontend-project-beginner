@@ -130,6 +130,19 @@ main> div > section  {
     display: flex;
     justify-content: space-around;
     align-items: center;
+       
+}
+
+.card {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    line-height: 1.5;
     
-    
+}
+.card > p {
+    margin: 10px;
+}
+.card > p:last-child {
+    color: #838282;
 }
