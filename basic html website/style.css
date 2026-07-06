@@ -113,3 +113,23 @@ main> div > section  {
 #educationSection > ul > li:last-child {
     border: transparent;
 }
+
+
+#reviewSection {
+ 
+    width:100%;
+    height:100vh;
+    padding: 30px;
+}
+#reviewSection > h2 {
+    margin: 20px;
+}
+
+.cardWrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
