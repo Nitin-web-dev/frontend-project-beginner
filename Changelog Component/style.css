@@ -39,7 +39,8 @@ h1{
     width:100%;
     position:relative;
 }
-
+ 
+/* // this is for vertical line that goes from top to bottom in middle  */
 .timeline::before{
     content:"";
     position:absolute;
@@ -52,6 +53,7 @@ h1{
 
 .item{
     display:grid;
+    /* // it give 300px for first block 80 for second and remaining to last one   */
     grid-template-columns:300px 80px 1fr;
     align-items:center;
     margin-bottom:45px;
