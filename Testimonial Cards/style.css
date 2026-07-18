@@ -36,9 +36,20 @@ body, html {
     font-size:1.5rem;
     line-height:1.5;
     padding: 20px;
+    position: relative;
 
 }
-
+.detail::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color:#010101;
+    position: absolute;
+    bottom: -2%;
+    left: 8%;
+    z-index: -1;
+    transform: rotate(45deg);
+}
 
 .profile {
     margin-top:10px;
